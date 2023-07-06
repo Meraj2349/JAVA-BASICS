@@ -8,7 +8,7 @@ public class Movie {
     public double rating;
 
     public Movie(String t,int m,double r) {
-        super();
+        //super();
         this.rating=r;
         this.month=m;
         this.titel=t;

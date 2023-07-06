@@ -1,10 +1,9 @@
 package Comparable;
 
 public class Movies implements Comparable {
-
-    public String movie_titel;
-    public int  year ;
-    public double reting;
+    private String movie_titel;
+    private int  year ;
+    private double reting;
 
     public Movies(String Mo,int yeaar,double reting )
     {

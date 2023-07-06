@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         ArrayList<Movies>movies=new ArrayList<>();
         Scanner s1= new Scanner(System.in);
         Scanner n= new Scanner(System.in);

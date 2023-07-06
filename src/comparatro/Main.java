@@ -27,11 +27,13 @@ public class Main {
                 else return -1;
              }
          };
+
+
         Collections.sort(movies,com);
 
         for(Movie v: movies)
         {
-            System.out.println(v);
+            System.out.println("title :"+v.getTitel()+"rating :"+v.getRating()+" month :"+v.getMonth());
         }
     }
 }
